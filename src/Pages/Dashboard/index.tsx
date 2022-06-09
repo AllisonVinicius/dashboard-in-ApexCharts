@@ -1,14 +1,13 @@
 import React from "react";
 import Content from "../../Components/Content";
 import Header from "../../Components/Header";
-//import Layout from "../../Components/Layout";
-import { Container } from "./styles";
+import Layout from "../../Components/Layout";
 
 const Dashboard = () => (
-  <Container>
+  <Layout>
     <Header title="Dashboard" subtitle="Desafio Técnico Frontend" />
     <Content>graficos aqui</Content>
-  </Container>
+  </Layout>
 );
 
 export default Dashboard;
