@@ -6,12 +6,14 @@ interface IContentHeaderProps {
   subtitle: string;
 }
 
-const Header: React.FC<IContentHeaderProps> = ({ title, subtitle }) => (
+const Header = ({ title, subtitle }: IContentHeaderProps) => (
   <Container>
     <TitleContainer>
       <h1>{title}</h1>
     </TitleContainer>
-    <Subtitle>{subtitle}</Subtitle>
+    <Subtitle>
+      <h4>{subtitle}</h4>
+    </Subtitle>
   </Container>
 );
 
