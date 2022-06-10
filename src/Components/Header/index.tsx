@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../ButtonFilter/index";
 import { Container, Subtitle, TitleContainer } from "./styles";
 
 interface IContentHeaderProps {
@@ -8,11 +9,10 @@ interface IContentHeaderProps {
 
 const Header = ({ title, subtitle }: IContentHeaderProps) => (
   <Container>
-    <TitleContainer>
-      <h1>{title}</h1>
-    </TitleContainer>
+    <TitleContainer>{title}</TitleContainer>
     <Subtitle>
-      <h4>{subtitle}</h4>
+      {subtitle}
+      <Button text="Filtrar" />
     </Subtitle>
   </Container>
 );
