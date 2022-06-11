@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as Icon } from "../../assets/info.svg";
 
-export const Container = styled.div``;
-
 export const TitleGraph = styled.span`
   color: #000;
   display: flex;

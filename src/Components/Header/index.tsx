@@ -3,16 +3,17 @@ import Button from "../ButtonFilter/index";
 import { Container, Subtitle, TitleContainer } from "./styles";
 
 interface IContentHeaderProps {
-  title: string;
-  subtitle: string;
+  title?: string;
+  subtitle?: string;
+  isActive?: boolean;
 }
 
-const Header = ({ title, subtitle }: IContentHeaderProps) => (
+const Header = ({ title, subtitle, isActive }: IContentHeaderProps) => (
   <Container>
     <TitleContainer>{title}</TitleContainer>
     <Subtitle>
       {subtitle}
-      <Button text="Filtrar" />
+      {isActive ? <Button text="Filtrar" /> : ""}
     </Subtitle>
   </Container>
 );
