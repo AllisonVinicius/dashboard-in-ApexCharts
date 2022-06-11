@@ -1,22 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 80%;
-  min-height: 260px;
-
+  width: 75%;
+  min-height: 290px;
   margin: 10px 0;
-
   background-color: #fff;
   border-radius: 10px;
-
   display: flex;
+  box-shadow: 0px 0 px 20px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 768px) {
     display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    height: auto;
+    width: 400px;
   }
 `;
 export const Header = styled.header`

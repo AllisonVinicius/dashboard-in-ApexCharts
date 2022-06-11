@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   padding: 25px;
 
-  height: calc(100vh - 70px);
-  overflow-y: scroll;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
