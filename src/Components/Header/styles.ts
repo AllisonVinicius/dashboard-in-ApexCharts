@@ -5,8 +5,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media (max-width: 320px) {
+  @media (max-width: 768px) {
+    justify-content: center;
     flex-direction: column;
+    width: 100%;
   }
 `;
 

@@ -1,14 +1,8 @@
 import styled from "styled-components";
 
-/**
- * Layout
- * MH = Main Header
- * CT = Content
- */
-
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: 250px auto;
+  grid-template-columns: 500px auto;
   grid-template-rows: 70px auto;
 
   grid-template-areas:
@@ -16,9 +10,9 @@ export const Grid = styled.div`
     "CT CT";
 
   height: 100vh;
-  min-width: 315px;
+  min-width: 500px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     grid-template-columns: 100%;
     grid-template-rows: 70px auto;
 
