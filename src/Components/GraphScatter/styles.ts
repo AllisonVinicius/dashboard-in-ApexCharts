@@ -1,22 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 80%;
-  min-height: 260px;
-
+  display: flex;
+  width: 75%;
+  min-height: 290px;
   margin: 10px 0;
-
   background-color: #fff;
   border-radius: 10px;
-
-  display: flex;
-
-  @media (max-width: 1200px) {
+  justify-content: center;
+  @media (max-width: 768px) {
     display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    height: auto;
+    width: 400px;
   }
 `;
 
@@ -35,4 +29,9 @@ export const Header = styled.div`
 `;
 export const Barras = styled.div`
   border: 10px;
+`;
+
+export const SofClose = styled.div`
+  background-color: red;
+  width: 200px;
 `;

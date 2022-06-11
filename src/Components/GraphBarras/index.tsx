@@ -12,8 +12,8 @@ const GraphBarras = () => {
         options={options}
         series={series}
         type="bar"
-        height={290}
-        width={300}
+        width="350"
+        height="300"
       />
     </Container>
   );

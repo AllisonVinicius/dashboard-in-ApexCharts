@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* width: 75%; */
   min-height: 290px;
   margin: 10px 0;
   background-color: #fff;
@@ -9,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   box-shadow: 0px 0 px 20px rgb(0, 0, 0, 0.1);
   border-radius: 10px;
+  justify-content: center;
 
   @media (max-width: 768px) {
     display: flex;
