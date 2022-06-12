@@ -8,7 +8,11 @@ import { Col, Row } from "./styles";
 
 const Dashboard = () => (
   <Layout>
-    <Header title="Dashboard" subtitle="Desafio Técnico Frontend" />
+    <Header
+      title="Dashboard"
+      subtitle="Desafio Técnico Frontend"
+      isActive={true}
+    />
     <Content>
       <Row>
         <Col>
