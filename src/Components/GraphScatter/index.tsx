@@ -41,8 +41,6 @@ const GraphScatter = () => {
         type="scatter"
         width={widthWindows}
         height={heightWindows}
-        left="786px"
-        top="100px"
       />
     </Container>
   );

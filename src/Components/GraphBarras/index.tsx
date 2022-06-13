@@ -9,7 +9,7 @@ const GraphBarras = () => {
   const widthWindows = useMemo(() => {
     let widValue = null;
     if (width >= 768) {
-      widValue = 600;
+      widValue = 590;
       return widValue;
     } else {
       widValue = 290;
