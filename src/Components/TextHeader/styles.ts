@@ -3,7 +3,7 @@ import { ReactComponent as Icon } from "../../assets/info.svg";
 
 export const TitleGraph = styled.span`
   width: 60px;
-  height: 20px;
+
   color: #5d405c;
   font-size: 16px;
   padding: 10px;

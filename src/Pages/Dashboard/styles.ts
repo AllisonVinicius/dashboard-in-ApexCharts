@@ -6,17 +6,32 @@ export const Barras = styled.div``;
 
 export const Row = styled.div`
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   line-height: normal;
+
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (max-width: 411px) {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+  }
 
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    justify-content: start;
   }
 
   @media (max-width: 1024px) {
     display: flex;
-
     flex-direction: column;
   }
 `;
