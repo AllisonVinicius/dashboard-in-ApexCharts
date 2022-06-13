@@ -5,14 +5,13 @@ export const TitleGraph = styled.span`
   width: 60px;
   height: 20px;
   color: #5d405c;
-  display: flex;
-  flex-direction: row;
   font-size: 16px;
-  line-height: 20px;
+  padding: 10px;
+  line-height: normal;
   font-family: "Montserrat";
-  margin: 10px;
   @media (max-width: 768px) {
     font-size: 15px;
+    margin: 50px 0;
   }
 `;
 

@@ -6,9 +6,21 @@ export const Container = styled.div`
   flex-direction: column;
 
   @media (max-width: 768px) {
-    justify-content: center;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+  }
+  @media (max-width: 360px) {
+    flex-direction: column;
+    width: 60%;
+  }
+  @media (max-width: 375px) {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  @media (max-width: 320px) {
+    flex-direction: column;
+    width: 50%;
   }
 `;
 
