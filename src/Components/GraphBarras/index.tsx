@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { options, series } from "../../repositories/barras";
+import TextHeader from "../TextHeader";
 import { Container } from "./styles";
 
 const GraphBarras = () => {
@@ -12,7 +13,7 @@ const GraphBarras = () => {
       widValue = 590;
       return widValue;
     } else {
-      widValue = 290;
+      widValue = 200;
       return widValue;
     }
   }, [width]);
@@ -31,7 +32,7 @@ const GraphBarras = () => {
 
   return (
     <Container>
-      {/* <TextHeader title="Barras" /> */}
+      <TextHeader title="Barras" />
       <ReactApexChart
         options={options}
         series={series}

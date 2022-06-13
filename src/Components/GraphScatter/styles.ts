@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 635px;
-  height: 345px;
-
+  display: flex;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0 px 20px rgb(0, 0, 0, 0.1);
   border-radius: 10px;
-  justify-content: center;
+  justify-content: space-around;
 
   @media (max-width: 1280px) {
     display: flex;

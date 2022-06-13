@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -24,7 +25,7 @@ export const Container = styled.div`
   }
 `;
 
-export const TitleContainer = styled.h3`
+export const TitleContainer = styled.h2`
   color: #5d405c;
   display: flex;
   flex-direction: column;

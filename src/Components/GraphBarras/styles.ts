@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  width: 635px;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0px 0 px 20px rgb(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@ export const Container = styled.div`
 
   @media (max-width: 411px) {
     display: flex;
-    width: 200px;
+    width: 75%;
   }
 
   @media (max-width: 768px) {
@@ -49,5 +49,17 @@ export const Header = styled.header`
 
   @media (max-width: 1200px) {
     flex-direction: column;
+  }
+`;
+
+export const Text = styled.h2`
+  width: 15px;
+  color: #5d405c;
+  font-size: 16px;
+  line-height: normal;
+  font-family: "Montserrat";
+  @media (max-width: 768px) {
+    font-size: 15px;
+    margin: 50px 0;
   }
 `;

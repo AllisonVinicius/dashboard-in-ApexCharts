@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { options } from "../../repositories/scatter";
+import TextHeader from "../TextHeader";
 import { Container } from "./styles";
 
 const GraphScatter = () => {
@@ -24,7 +25,7 @@ const GraphScatter = () => {
     let heiValue = null;
 
     if (height > 400) {
-      heiValue = 297;
+      heiValue = 300;
       return heiValue;
     } else {
       heiValue = 180;
@@ -34,7 +35,7 @@ const GraphScatter = () => {
 
   return (
     <Container>
-      {/* <TextHeader title="Scatter" /> */}
+      <TextHeader title="Scatter" />
       <ReactApexChart
         options={options}
         series={options.series}
