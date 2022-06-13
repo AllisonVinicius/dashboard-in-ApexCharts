@@ -21,9 +21,11 @@ export const Button = styled.button`
 `;
 
 export const StyleIcon = styled(Icon)`
-  height: 13px;
-  width: 12px;
-  fill: #fff;
+  left: 22.22%;
+  right: 22.28%;
+  top: 30.56%;
+  bottom: 19.5%;
+
   @media (max-width: 768px) {
     height: 10px;
     width: 10px;
