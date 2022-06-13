@@ -1,8 +1,8 @@
 # Teste Front End React - Utilizando A ApexCharts para Gráficos
 
-## Neste desafio foram utilizados dois graficos sendo eles o graficos em Barras e o Scatter.
+Neste desafio foram utilizados dois graficos sendo eles o graficos em Barras e o Scatter.
 
-# Foi realizado com typescript e styled-components lib de css-in-js.
+- Foi realizado com typescript e styled-components lib de css-in-js.
 
 ![2022-06-13_12-37_3](https://user-images.githubusercontent.com/39178001/173402838-4c2b7560-2c0e-4678-9423-3114d3962dbe.png)
 
