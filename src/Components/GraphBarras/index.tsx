@@ -8,18 +8,15 @@ const GraphBarras = () => {
   const { innerWidth: width } = window;
 
   const widthWindows = useMemo(() => {
-    let widValu = null;
-
-    if (width > 768) {
-      widValu = 600;
-      return widValu;
+    let widValue = null;
+    if (width >= 768) {
+      widValue = 600;
+      return widValue;
     } else {
-      widValu = 300;
-      return widValu;
+      widValue = 290;
+      return widValue;
     }
   }, [width]);
-
-  console.log("laregura", widthWindows);
 
   return (
     <Container>
