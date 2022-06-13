@@ -24,8 +24,6 @@ export const Container = styled.div`
   @media (max-width: 411px) {
     display: flex;
     width: 200px;
-
-    background: blue;
   }
 
   @media (max-width: 768px) {

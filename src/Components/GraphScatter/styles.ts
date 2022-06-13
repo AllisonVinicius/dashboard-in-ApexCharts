@@ -25,7 +25,6 @@ export const Container = styled.div`
   @media (max-width: 411px) {
     display: flex;
     width: 75%;
-    background: red;
   }
 
   @media (max-width: 768px) {
