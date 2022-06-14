@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { options } from "../../repositories/scatter";
 import TextHeader from "../TextHeader";
-import { Container, StyleIcon } from "./styles";
+import { Container } from "./styles";
 
 const GraphScatter = () => {
   const { innerWidth: width, innerHeight: height } = window;
@@ -36,7 +36,7 @@ const GraphScatter = () => {
   return (
     <Container>
       <TextHeader title="Scatter" />
-      <StyleIcon />
+
       <ReactApexChart
         options={options}
         series={options.series}

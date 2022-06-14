@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { ReactComponent as Icon } from "../../assets/info.svg";
 
 export const Container = styled.div`
   width: 570px;
@@ -57,15 +56,4 @@ export const Text = styled.h2`
     font-size: 15px;
     margin: 50px 0;
   }
-`;
-
-export const StyleIcon = styled(Icon)`
-  width: 3%;
-  height: 3%;
-  top: 40%;
-  left: 8.5%;
-  text-align: center;
-  border: 2px;
-  border-radius: 20px;
-  z-index: 1;
 `;

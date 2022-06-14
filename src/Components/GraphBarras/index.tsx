@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { options, series } from "../../repositories/barras";
 import TextHeader from "../TextHeader";
-import { Container, StyleIcon } from "./styles";
+import { Container } from "./styles";
 
 const GraphBarras = () => {
   const { innerWidth: width, innerHeight: height } = window;
@@ -33,7 +33,7 @@ const GraphBarras = () => {
   return (
     <Container>
       <TextHeader title="Barras" />
-      <StyleIcon />
+
       <ReactApexChart
         options={options}
         series={series}
