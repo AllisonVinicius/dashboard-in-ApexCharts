@@ -6,7 +6,7 @@ export const Barras = styled.div``;
 
 export const Row = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   @media (max-width: 375px) {
     display: flex;

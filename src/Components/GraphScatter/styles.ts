@@ -17,15 +17,14 @@ export const Container = styled.div`
     margin: 15px;
   }
 
-  @media (max-width: 411px) {
-    display: flex;
-    width: 4500px;
-  }
-
   @media (max-width: 768px) {
     display: flex;
     width: 600px;
     margin: 10px;
+  }
+  @media (max-width: 411px) {
+    display: flex;
+    width: 400px;
   }
 
   @media (max-width: 375px) {
