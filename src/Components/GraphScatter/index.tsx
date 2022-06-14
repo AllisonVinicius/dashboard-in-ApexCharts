@@ -15,7 +15,7 @@ const GraphScatter = () => {
 
       return widValue;
     } else {
-      widValue = 200;
+      widValue = 280;
 
       return widValue;
     }

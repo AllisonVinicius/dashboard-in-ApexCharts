@@ -13,7 +13,7 @@ const GraphBarras = () => {
       widValue = 570;
       return widValue;
     } else {
-      widValue = 200;
+      widValue = 280;
       return widValue;
     }
   }, [width]);

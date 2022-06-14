@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: 100% auto;
+  grid-template-columns: 100%;
   grid-template-rows: 70px auto;
 
   grid-template-areas:

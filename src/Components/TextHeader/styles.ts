@@ -18,14 +18,25 @@ export const TitleGraph = styled.h2`
   justify-content: space-between;
   @media (max-width: 768px) {
     font-size: 15px;
-    margin: 50px 0;
   }
 `;
 
 export const StyleIcon = styled(Icon)`
-  display: flex;
   width: 120px;
   height: 16px;
   margin: 7px;
   align-items: center;
+`;
+
+export const Space = styled.div`
+  display: flex;
+  @media (max-width: 768px) {
+    position: absolute;
+    left: 10%;
+  }
+
+  @media (max-width: 411px) {
+    position: absolute;
+    left: 15%;
+  }
 `;

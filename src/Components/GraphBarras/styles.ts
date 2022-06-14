@@ -11,18 +11,17 @@ export const Container = styled.div`
 
   @media (max-width: 1024px) {
     display: flex;
-    width: 600px;
+    width: 800px;
     margin: 15px;
   }
-
   @media (max-width: 411px) {
     display: flex;
-    width: 400px;
+    width: 310px !important;
   }
 
   @media (max-width: 768px) {
     display: flex;
-    width: 600px;
+    width: 620px;
     margin: 10px;
   }
 
@@ -30,6 +29,10 @@ export const Container = styled.div`
     display: flex;
     width: 450px;
     margin: 10px;
+  }
+  @media (max-width: 360px) {
+    display: flex;
+    width: 290px !important;
   }
 `;
 export const Header = styled.header`

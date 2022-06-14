@@ -12,7 +12,7 @@ export const Container = styled.div`
   @media (max-width: 1024px) {
     display: flex;
 
-    width: 600px;
+    width: 800px;
     margin: 15px;
   }
 
@@ -23,13 +23,17 @@ export const Container = styled.div`
   }
   @media (max-width: 411px) {
     display: flex;
-    width: 400px;
+    width: 310px;
   }
 
   @media (max-width: 375px) {
     display: flex;
     width: 450x;
     margin: 10px;
+  }
+  @media (max-width: 360px) {
+    display: flex;
+    width: 290px !important;
   }
 `;
 
