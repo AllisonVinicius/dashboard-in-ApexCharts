@@ -1,41 +1,36 @@
 import styled from "styled-components";
+import { ReactComponent as Icon } from "../../assets/info.svg";
 
 export const Container = styled.div`
-  display: flex;
-  width: 100%;
+  width: 570px;
+  height: 345px;
+  left: 30px;
+  top: 228px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 0 px 20px rgb(0, 0, 0, 0.1);
-  border-radius: 10px;
-  justify-content: space-around;
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1024px) {
     display: flex;
     width: 600px;
     margin: 15px;
   }
 
-  @media (max-width: 1024px) {
-    display: flex;
-    width: 800px;
-    margin: 15px;
-  }
-
   @media (max-width: 411px) {
     display: flex;
-    width: 75%;
+    width: 450px;
   }
 
   @media (max-width: 768px) {
     display: flex;
-    width: 650px;
+    width: 600px;
     margin: 10px;
   }
 
   @media (max-width: 375px) {
     display: flex;
+    width: 450px;
     margin: 10px;
-    width: 75%;
   }
 `;
 export const Header = styled.header`
@@ -62,4 +57,15 @@ export const Text = styled.h2`
     font-size: 15px;
     margin: 50px 0;
   }
+`;
+
+export const StyleIcon = styled(Icon)`
+  width: 3%;
+  height: 3%;
+  top: 40%;
+  left: 8.5%;
+  text-align: center;
+  border: 2px;
+  border-radius: 20px;
+  z-index: 1;
 `;

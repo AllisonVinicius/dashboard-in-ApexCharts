@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import ReactApexChart from "react-apexcharts";
 import { options } from "../../repositories/scatter";
 import TextHeader from "../TextHeader";
-import { Container } from "./styles";
+import { Container, StyleIcon } from "./styles";
 
 const GraphScatter = () => {
   const { innerWidth: width, innerHeight: height } = window;
@@ -11,11 +11,11 @@ const GraphScatter = () => {
     let widValue = null;
 
     if (width >= 768) {
-      widValue = 600;
+      widValue = 570;
 
       return widValue;
     } else {
-      widValue = 300;
+      widValue = 200;
 
       return widValue;
     }
@@ -24,11 +24,11 @@ const GraphScatter = () => {
   const heightWindows = useMemo(() => {
     let heiValue = null;
 
-    if (height > 400) {
+    if (height > 500) {
       heiValue = 300;
       return heiValue;
     } else {
-      heiValue = 180;
+      heiValue = 150;
       return heiValue;
     }
   }, [height]);
@@ -36,6 +36,7 @@ const GraphScatter = () => {
   return (
     <Container>
       <TextHeader title="Scatter" />
+      <StyleIcon />
       <ReactApexChart
         options={options}
         series={options.series}

@@ -6,8 +6,7 @@ export const Barras = styled.div``;
 
 export const Row = styled.div`
   display: flex;
-  justify-content: space-around;
-  line-height: normal;
+  justify-content: space-between;
 
   @media (max-width: 375px) {
     display: flex;
@@ -18,7 +17,7 @@ export const Row = styled.div`
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
   }
 
   @media (max-width: 1024px) {
