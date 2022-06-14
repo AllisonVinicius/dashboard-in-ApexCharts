@@ -25,7 +25,7 @@ export const TitleGraph = styled.h2`
 export const StyleIcon = styled(Icon)`
   display: flex;
   width: 120px;
-  height: 20px;
-  margin: 5px;
+  height: 16px;
+  margin: 7px;
   align-items: center;
 `;
