@@ -3,13 +3,12 @@
 Neste desafio foram utilizados dois graficos sendo eles o graficos em Barras e o Scatter.
 
 - Foi realizado com TypeScript e styled-components lib de css-in-js.
+- Ferramenta utilizada para verificar resposividade: https://responsively.app/
 
-![2022-06-13_12-37_3](https://user-images.githubusercontent.com/39178001/173402838-4c2b7560-2c0e-4678-9423-3114d3962dbe.png)
+![01](https://user-images.githubusercontent.com/39178001/173680066-ebacddfb-e090-4f96-8d4a-c36a96b2b40a.png)
 
-![2022-06-13_12-37_2](https://user-images.githubusercontent.com/39178001/173402893-960f703c-9574-4071-bbbe-2a60114ca477.png)
+![02](https://user-images.githubusercontent.com/39178001/173680109-51b78e58-4904-40e2-8ae7-ba271438e815.png)
 
-![2022-06-13_12-37_1](https://user-images.githubusercontent.com/39178001/173402948-0cf708c6-987c-4932-a577-7e3719ca60f4.png)
+![03](https://user-images.githubusercontent.com/39178001/173680158-5b039e69-caf0-464d-9858-22973fd6a6d1.png)
 
-![2022-06-13_12-37](https://user-images.githubusercontent.com/39178001/173403001-f577e72c-2cfe-4a5b-b1b7-d44dea6fb3aa.png)
-
-![2022-06-13_12-36](https://user-images.githubusercontent.com/39178001/173402677-e803ecea-2844-4f45-829d-0a9c58bcc310.png)
+![04](https://user-images.githubusercontent.com/39178001/173680192-e2b812c9-9d75-417f-9ba6-b175dfc2c1c4.png)
