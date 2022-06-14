@@ -1,12 +1,15 @@
 import React from "react";
-import { TitleGraph } from "./styles";
+import { Container, StyleIcon, TitleGraph } from "./styles";
 
 interface ITextGraphProps {
   title?: string;
 }
 
 const TextHeader = ({ title }: ITextGraphProps) => (
-  <TitleGraph>{title}</TitleGraph>
+  <Container>
+    <TitleGraph>{title}</TitleGraph>
+    <StyleIcon />
+  </Container>
 );
 
 export default TextHeader;
