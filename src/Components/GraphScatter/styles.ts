@@ -18,9 +18,10 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     display: flex;
-    width: 600px;
+    width: 620px;
     margin: 10px;
   }
+
   @media (max-width: 411px) {
     display: flex;
     width: 310px;
