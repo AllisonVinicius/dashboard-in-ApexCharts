@@ -1,4 +1,4 @@
-# Teste Front End React - Utilizando A ApexCharts para Gráficos
+# Graficos - Utilizando a biblioteca ApexCharts para Gráficos
 
 Neste desafio foram utilizados dois graficos sendo eles o graficos em Barras e o Scatter.
 
