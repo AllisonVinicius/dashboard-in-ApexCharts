@@ -9,6 +9,8 @@ Neste desafio foram utilizados dois graficos sendo eles o graficos em Barras e o
 
 ![02](https://user-images.githubusercontent.com/39178001/173680109-51b78e58-4904-40e2-8ae7-ba271438e815.png)
 
-![03](https://user-images.githubusercontent.com/39178001/173680158-5b039e69-caf0-464d-9858-22973fd6a6d1.png)
+![03](https://user-images.githubusercontent.com/39178001/175566345-a8d402d5-c5f6-4f7d-a50c-b8db45057758.png)
 
 ![04](https://user-images.githubusercontent.com/39178001/173680192-e2b812c9-9d75-417f-9ba6-b175dfc2c1c4.png)
+
+![05](https://user-images.githubusercontent.com/39178001/175566498-9f556e16-637c-4f6e-9ae1-f900dced101e.png)
